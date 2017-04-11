@@ -1,0 +1,49 @@
+<!doctype html>
+<html class="no-js" dir="RTL" lang="fa">
+
+<head>
+    <meta charset="utf-8">
+    <title>Pixeler Range Slider</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="assets/css/style.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="row">
+        <div class="large-12 columns">
+            <h1>انتخاب کننده محدوده</h1>
+        </div>
+    </div>
+    <div class="row">
+        <input type="range" min="10" max="345" step="5" data-rangeSlider>
+        <div class="slider" data-slider data-initial-start="50" data-end="200">
+            <span class="slider-handle" data-slider-handle role="slider" tabindex="1"></span>
+            <span class="slider-fill" data-slider-fill></span>
+            <input type="hidden">
+        </div>
+
+        <div class="range-slider">
+            <input class="range-slider__range" type="range" value="250" min="0" max="500" step="50">
+            <span class="range-slider__value">0</span>
+        </div>
+        <div class="slider" data-slider data-initial-start="25" data-initial-end="75">
+            <span class="slider-handle" data-slider-handle role="slider" tabindex="1"></span>
+            <span class="slider-fill" data-slider-fill></span>
+            <span class="slider-handle" data-slider-handle role="slider" tabindex="1"></span>
+            <input type="hidden">
+            <input type="hidden">
+        </div>
+    </div>
+
+
+
+    <script src="assets/components/jquery/jquery.min.js"></script>
+    <script src="assets/js/scripts.min.js"></script>
+
+
+</body>
+
+</html>
